@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- تلفزيونك mark: a TV with a desert sun and dune inside. Gold #D6AF6B on Riyadh-night green. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E2A1D"/><stop offset="1" stop-color="#04120C"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F1CF8A"/><stop offset="1" stop-color="#C8A45C"/></linearGradient>
+    <clipPath id="screen"><rect x="104" y="112" width="304" height="204" rx="30"/></clipPath>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <g clip-path="url(#screen)">
+    <circle cx="300" cy="242" r="46" fill="url(#gold)"/>
+    <path d="M104 280 C170 230 230 232 300 270 C350 296 380 280 408 264 V316 H104 Z" fill="#04120C"/>
+    <path d="M104 280 C170 230 230 232 300 270 C350 296 380 280 408 264" fill="none" stroke="url(#gold)" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <rect x="104" y="112" width="304" height="204" rx="30" fill="none" stroke="url(#gold)" stroke-width="22"/>
+  <path d="M226 316 L210 370 M286 316 L302 370" stroke="#D6AF6B" stroke-width="18" stroke-linecap="round"/>
+  <path d="M180 380 H332" stroke="#D6AF6B" stroke-width="20" stroke-linecap="round"/>
+</svg>
